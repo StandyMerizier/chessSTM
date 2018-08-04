@@ -1,0 +1,161 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito';
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+#chessSTM{
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+
+#game {
+	width: 50%;
+}
+
+#chat{
+	width: 25%;
+	float: left;
+}
+
+#FenInDiv {
+	position: relative;
+	width: 100%;
+	left: 60px;
+}
+
+#fenIn {
+ width: 480px;
+ left: 60px;
+}
+
+#Board {
+	position: relative;
+	top: 20px;
+	left: 60px;
+	width: 480px;
+	height: 480px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#EngineOutput {
+	position: absolute;
+	left: 600px;
+	top: 250px;
+}
+
+.Square {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+.Dark {
+	background-color:#5fbcd3;
+}
+
+.Light {
+	background-color:#afdde9;
+}
+
+.SqSelected {
+	background-color:#216778;
+}
+
+.rank1 { top: 420px; }
+.rank2 { top: 360px; }
+.rank3 { top: 300px; }
+.rank4 { top: 240px; }
+.rank5 { top: 180px; }
+.rank6 { top: 120px; }
+.rank7 { top: 60px; }
+.rank8 { top: 0px; }
+
+.file1 { left: 0px; }
+.file2 { left: 60px; }
+.file3 { left: 120px; }
+.file4 { left: 180px; }
+.file5 { left: 240px; }
+.file6 { left: 300px; }
+.file7 { left: 360px; }
+.file8 { left: 420px; }
+
+.Piece {
+	position: absolute;
+}
+
+
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+#chess-chat{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+#handle, #message{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+}
+
+#send{
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
